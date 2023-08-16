@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
         integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -26,10 +27,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Budowa kota</a>
+                            <a class="nav-link active" aria-current="page" href="budowa_kota.html"
+                                class="btn btn-outline-info btn-lg" target="_self">Budowa kota</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Ciekawostki</a>
+                            <a class="nav-link active" aria-current="page" href="ciekawostki.html"
+                                class="btn btn-outline-info btn-lg" target="_self">Ciekawostki</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -37,7 +40,7 @@
                                 Wybrane rasy kotów
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Kot Abisyński</a></li>
+                                <li><a class="dropdown-item" href="abisynski.html">Kot Abisyński</a></li>
                                 <li><a class="dropdown-item" href="#">Kot Bengalski</a></li>
                                 <li><a class="dropdown-item" href="#">Kot Brytyjski</a></li>
                                 <li><a class="dropdown-item" href="#">Kot Tajski</a></li>
@@ -57,7 +60,7 @@
         </nav>
     </header>
     <section class="bg-dark text-light p-5 text-center">
-        <div class="container">
+        <div class="container animate__animated  animate__slideInLeft">
             <div class="row text-center">
                 <div class="col-md ">
                     <h1>Pierwsza strona - <span class="text-info"> 09.08.2023</h1></span>
@@ -73,7 +76,6 @@
                     </p>
                     <a href="dowiedz_sie_wiecej.html" class="btn btn-outline-info btn-lg" target="_self">Dowiedz się
                         więcej</a>
-
                 </div>
                 <div class="col-md-5 d-none d-sm-block">
                     <img src="cat4.png" class="rounded float-left" alt="...">
@@ -85,8 +87,6 @@
     <section class="bg-info text-dark p-3">
         <div class="contianer">
             <div class="col-8 text-center">
-
-
                 <div class="d-md-flex justify-content-between align-items-center">
                     <h3 class="bi bi-envelope-at" class="mb-3 mb-md-2"> Zaloguj się do Newsletter'a</h3>
 
@@ -97,7 +97,7 @@
                                 type="button">
                                 <h3 class="bi bi-hand-index" class="mb-3 mb-md-2"> Zaloguj się</h3>
                             </button>
-                            </button>
+                            
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                                 Koty są najbardziej popularnym zwierzęciem domowych na świecie. Jest ponad 500 milionów
                                 kotów domowych
                             </p>
-                            <a href="#" class="btn btn-info">
+                            <a href="ciekawostki.html" class="btn btn-info">
                                 <i class="bi bi-check-all"> </i>
                                 Dowiedz się więcej
                             </a>
@@ -139,7 +139,7 @@
                             <p class="card-text px-1">
                                 Nasze ulubione pupile śpią średnio od 13 do 14 godzin dziennie
                             </p>
-                            <a href="#" class="btn btn-dark">
+                            <a href="ciekawostki.html" class="btn btn-dark">
                                 <i class="bi bi-check-all"> </i>
                                 Dowiedz się więcej
                             </a>
@@ -158,7 +158,7 @@
                             <p class="card-text px-1">
                                 Serca kotów biją dwa razy szybciej niż u ludzi. Serce kota ma 110-140 uderzeń na minutę
                             </p>
-                            <a href="#" class="btn btn-info">
+                            <a href="ciekawostki.html" class="btn btn-info">
                                 <i class="bi bi-check-all"> </i>
                                 Dowiedz się więcej
                             </a>
@@ -169,7 +169,7 @@
         </div>
     </section>
 
-    <section id="learn" class="p-5">
+    <section class="p-5">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md">
@@ -185,8 +185,8 @@
                         <li class="lead">Czas trwania: 160h</li>
                         <li class="lead">Forma zajęć: wykłady i warsztaty</li>
                     </p>
-                    <a href="szkolenia_dla_kotow.html" class="btn btn-info mt-3 bi bi-chevron-double-right" class="bi bi-chevron-double-right"
-                        target="_self" > Czytaj dalej</a>
+                    <a href="szkolenia_dla_kotow.html" class="btn btn-info mt-3 bi bi-chevron-double-right"
+                        class="bi bi-chevron-double-right" target="_self"> Czytaj dalej</a>
                     </a>
                 </div>
             </div>
@@ -194,10 +194,9 @@
 
     </section>
 
-    <section id="learn" class="p-5 bg-dark text-light">
-        <div class="container">
+    <section class="p-5 bg-dark text-light">
+        <div class="container animate__animated  animate__slideInRight">
             <div class="row align-items-center justify-content-between">
-
                 <div class="col-md-9">
                     <h2><strong>Poznaj rasy kotów!</strong></h2>
                     <p class="lead">
@@ -213,7 +212,7 @@
                         barwna.
                         </li>
                     </p>
-                    <a href="#" class="btn btn-info mt-3">
+                    <a href="rasy_kotow.html" class="btn btn-info mt-3">
                         <i class="bi bi-chevron-double-right"></i> Czytaj dalej
                     </a>
                 </div>
@@ -594,14 +593,13 @@
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
-        </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
-        </script>
-
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
 
 </html>
